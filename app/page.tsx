@@ -1,10 +1,9 @@
-import Benefits from "@/components/Benefits"
-import Courses from "@/components/Courses"
-import Footer from "@/components/Footer"
-import HeroSection from "@/components/HeroSection"
-import NavBar from "@/components/NavBar"
-import Trainers from "@/components/Trainers"
-import WhyShould from "@/components/WhyShould"
+import Benefits from "@/components/LandingPage/Benefits"
+import Courses from "@/components/LandingPage/Courses"
+import Footer from "@/components/LandingPage/Footer"
+import HeroSection from "@/components/LandingPage/HeroSection"
+import NavBar from "@/components/LandingPage/NavBar"
+import Trainers from "@/components/LandingPage/Trainers"
 import { Fragment } from "react"
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
         <Courses />
         <Benefits />
         <Trainers />
-        {/* <WhyShould /> */}
         <Footer />
     </Fragment>
 }

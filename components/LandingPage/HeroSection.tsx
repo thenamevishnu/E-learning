@@ -3,7 +3,6 @@ import CalendarIcon from "@/assets/icons/calendar.svg"
 import statIcon from "@/assets/icons/stat.svg"
 import playIcon from "@/assets/icons/play.svg"
 import Image from "next/image"
-import { FaPlay } from "react-icons/fa"
 
 const HeroSection = () => {
     return <div className="bg-brandSecondary h-[400px] flex gap-3 relative">
